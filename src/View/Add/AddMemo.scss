@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.Memo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+
+  .MemoBackground {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .MemoContent {
+    top: 17%;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    background: white;
+    left: 35%;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    .MemoTitle {
+      background: #ffa500;
+      display: flex;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      width: 100%;
+      height: 10%;
+      top: 0;
+      color: white;
+      font-family: "Fredoka", sans-serif;
+      justify-content: center;
+
+      .Title-info {
+        align-self: center;
+        font-size: 30px;
+      }
+    }
+
+    .MemoInfo {
+      width: 90%;
+      height: 70%;
+      display: flex;
+      margin: 20px;
+      flex-direction: column;
+
+      input[type="text"] {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
+        height: 3rem;
+        width: 100%;
+        font-size: 15px;
+        margin: 0 0 8px 0;
+        padding: 0;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      .content {
+        padding: 0.8rem 0 0.8rem 0;
+        border: none;
+        resize: none;
+        font-size: 15px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 70%;
+        font-family: "Roboto", sans-serif;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    .MemoFoot {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: end;
+
+      .button1 {
+        width: 100px;
+        border-radius: 25px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: 3px solid #ffa600;
+        background-color: #ffffff;
+        color: #ffa600;
+        font-family: "Fredoka", sans-serif;
+        font-weight: bold;
+      }
+      .button2 {
+        width: 100px;
+        border-radius: 25px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: 3px solid #ffa600;
+        background-color: #ffffff;
+        color: #ffa600;
+        font-family: "Fredoka", sans-serif;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+.Main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .MainForm {
+    padding: 30px;
+    margin: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px #dcdcdc;
+  }
+
+  .MainTitle {
+    font-size: 50px;
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    color: #ffa500;
+  }
+  .List {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ffffe0;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px #dcdcdc;
+
+    p {
+      font-size: 18px;
+      margin: 0;
+      font-family: "Noto Sans KR", sans-serif;
+    }
+    span {
+      font-size: 12px;
+      font-family: "Noto Sans KR", sans-serif;
+      color: #696969;
+    }
+  }
+
+  .MainBottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    width: 70px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 3px solid #ffa600;
+    background-color: #ffffff;
+    color: #ffa600;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+  }
+}
